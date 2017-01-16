@@ -4,11 +4,13 @@
 #multiples of both three and five: "Bitmaker"
 
 100.times do |n|
-if n % 3 == 0
-  puts "Bit"
-elsif n % 3 == 0 or n % 5 == 0
-  puts "Bitmaker"
-else
-  puts "#{n}"
-end
+  if n % 3 == 0 && n % 5 == 0
+    puts "Bitmaker"
+  elsif n % 5 == 0
+    puts "maker"
+  elsif n % 3 == 0
+    puts "Bit"
+  else
+    puts "#{n}"
+  end
 end
