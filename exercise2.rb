@@ -6,4 +6,7 @@
 # puts five + 6
 
 #PART 3
-puts "I wish I had #{45628 * 7839} dogs"
+# puts "I wish I had #{45628 * 7839} dogs"
+
+#PART 4
+puts (10 < 20 && 30 < 20) || !(10 == 11)
